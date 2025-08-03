@@ -1,0 +1,37 @@
+{
+  "name": "google-flights-url-generator",
+  "version": "1.0.0",
+  "description": "Generate Google Flights URLs from user inputs with full SerpAPI compatibility",
+  "main": "gfurl/__init__.py",
+  "scripts": {
+    "test": "python test_generator.py",
+    "demo": "python demo.py",
+    "examples": "python examples/basic_examples.py",
+    "setup": "python setup.py"
+  },
+  "keywords": [
+    "google-flights",
+    "url-generator", 
+    "serpapi",
+    "flight-search",
+    "travel",
+    "aviation",
+    "protobuf",
+    "tfs"
+  ],
+  "author": "Zaryab Jibu",
+  "license": "MIT",
+  "dependencies": {
+    "click": ">=8.0.0",
+    "requests": ">=2.28.0",
+    "playwright": ">=1.40.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/google-flights-url-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/google-flights-url-generator/issues"
+  },
+  "homepage": "https://github.com/yourusername/google-flights-url-generator#readme"
+}
